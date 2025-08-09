@@ -1,0 +1,39 @@
+{
+  "models": [
+    {
+      "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "description": "Paraphrase multilingual model - Windows compatible",
+      "language_support": "multilingual"
+    },
+    {
+      "name": "sentence-transformers/distiluse-base-multilingual-cased",
+      "description": "DistilUSE multilingual model - Windows compatible",
+      "language_support": "multilingual"
+    },
+    {
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "description": "All MiniLM model - fast and lightweight",
+      "language_support": "multilingual"
+    },
+	{
+      "name": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "description": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "language_support": "multilingual"
+    },
+	{
+      "name": "dangvantuan/vietnamese-embedding",
+      "description": "dangvantuan/vietnamese-embedding",
+      "language_support": "VN"
+    },
+	{
+      "name": "AITeamVN/Vietnamese_Embedding",
+      "description": "AITeamVN/Vietnamese_Embedding",
+      "language_support": "VN"
+    }
+  ],
+  "evaluation_settings": {
+    "chunk_size": 200,
+    "similarity_threshold": 0.7,
+    "output_format": "detailed"
+  }
+}

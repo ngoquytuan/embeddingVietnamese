@@ -1,0 +1,28 @@
+2025-08-09 17:44:42,119 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-08-09 17:44:44,976 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-09 17:44:57,739 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-09 17:45:00,490 - INFO - Load pretrained SentenceTransformer: sentence-transformers/distiluse-base-multilingual-cased
+2025-08-09 17:45:03,361 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-09 17:45:20,518 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-09 17:45:21,354 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-09 17:49:29,179 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-08-09 17:49:34,457 - INFO - Load pretrained SentenceTransformer: sentence-transformers/distiluse-base-multilingual-cased
+2025-08-09 17:49:39,964 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-09 17:53:11,298 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-08-09 17:53:16,358 - INFO - Load pretrained SentenceTransformer: sentence-transformers/distiluse-base-multilingual-cased
+2025-08-09 17:53:21,869 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-09 17:53:26,037 - INFO - Load pretrained SentenceTransformer: AITeamVN/Vietnamese_Embedding
+2025-08-09 17:55:15,599 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-08-09 17:55:20,979 - INFO - Load pretrained SentenceTransformer: sentence-transformers/distiluse-base-multilingual-cased
+2025-08-09 17:55:27,507 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-09 17:55:32,035 - INFO - Load pretrained SentenceTransformer: cross-encoder/ms-marco-MiniLM-L-6-v2
+2025-08-09 17:55:32,590 - WARNING - No sentence-transformers model found with name cross-encoder/ms-marco-MiniLM-L-6-v2. Creating a new one with mean pooling.
+2025-08-09 17:55:37,461 - INFO - Load pretrained SentenceTransformer: dangvantuan/vietnamese-embedding
+2025-08-09 17:55:42,167 - INFO - Load pretrained SentenceTransformer: AITeamVN/Vietnamese_Embedding
+2025-08-09 18:02:43,599 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-08-09 18:02:48,892 - INFO - Load pretrained SentenceTransformer: sentence-transformers/distiluse-base-multilingual-cased
+2025-08-09 18:02:54,566 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-09 18:02:59,490 - INFO - Load pretrained SentenceTransformer: cross-encoder/ms-marco-MiniLM-L-6-v2
+2025-08-09 18:03:00,009 - WARNING - No sentence-transformers model found with name cross-encoder/ms-marco-MiniLM-L-6-v2. Creating a new one with mean pooling.
+2025-08-09 18:03:05,309 - INFO - Load pretrained SentenceTransformer: dangvantuan/vietnamese-embedding
+2025-08-09 18:03:09,312 - INFO - Load pretrained SentenceTransformer: AITeamVN/Vietnamese_Embedding

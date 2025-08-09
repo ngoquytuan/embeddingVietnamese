@@ -1,0 +1,102 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Vietnamese Embedding Models Evaluation Report</title>
+            <meta charset="utf-8">
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .header { background-color: #f0f8ff; padding: 20px; border-radius: 5px; }
+                .model-section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+                .success { background-color: #f0fff0; }
+                .error { background-color: #fff0f0; }
+                table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                .metric { font-weight: bold; }
+                .warning { background-color: #fff3cd; padding: 10px; border-radius: 5px; margin: 10px 0; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>🇻🇳 Vietnamese Embedding Models Evaluation Report</h1>
+                <p><strong>Generated:</strong> 2025-08-09 17:54:12</p>
+                <p><strong>Total Models Tested:</strong> 4</p>
+                <p><strong>Successful Evaluations:</strong> 4</p>
+            </div>
+            
+            <div class="warning">
+                <strong>⚠️ Note:</strong> Using simplified Vietnamese NLP tools (regex-based) instead of underthesea for Windows compatibility.
+                For more accurate results, consider using underthesea via conda-forge.
+            </div>
+            
+            <h2>📊 Models Comparison</h2>
+            <table border="1" class="dataframe comparison-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>Description</th>
+      <th>Language Support</th>
+      <th>Embedding Dimension</th>
+      <th>Num Chunks</th>
+      <th>Avg Similarity</th>
+      <th>Std Similarity</th>
+      <th>Similarity Range</th>
+      <th>High Sim Ratio</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td>
+      <td>Paraphrase multilingual model - Windows compatible</td>
+      <td>multilingual</td>
+      <td>384</td>
+      <td>44</td>
+      <td>0.4974</td>
+      <td>0.1733</td>
+      <td>0.8950</td>
+      <td>9.20%</td>
+      <td>success</td>
+    </tr>
+    <tr>
+      <td>sentence-transformers/distiluse-base-multilingual-cased</td>
+      <td>DistilUSE multilingual model - Windows compatible</td>
+      <td>multilingual</td>
+      <td>512</td>
+      <td>44</td>
+      <td>0.4136</td>
+      <td>0.1446</td>
+      <td>0.8241</td>
+      <td>1.06%</td>
+      <td>success</td>
+    </tr>
+    <tr>
+      <td>sentence-transformers/all-MiniLM-L6-v2</td>
+      <td>All MiniLM model - fast and lightweight</td>
+      <td>multilingual</td>
+      <td>384</td>
+      <td>44</td>
+      <td>0.7538</td>
+      <td>0.0952</td>
+      <td>0.5167</td>
+      <td>80.23%</td>
+      <td>success</td>
+    </tr>
+    <tr>
+      <td>AITeamVN/Vietnamese_Embedding</td>
+      <td>AITeamVN/Vietnamese_Embedding</td>
+      <td>VN</td>
+      <td>1024</td>
+      <td>44</td>
+      <td>0.4529</td>
+      <td>0.0921</td>
+      <td>0.5816</td>
+      <td>0.11%</td>
+      <td>success</td>
+    </tr>
+  </tbody>
+</table>
+        </body>
+        </html>
+        

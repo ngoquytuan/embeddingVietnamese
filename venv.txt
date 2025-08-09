@@ -1,0 +1,3 @@
+PS D:\Projects\undertest\testembedding> python -m venv MT
+PS D:\Projects\undertest\testembedding> .\MT\Scripts\activate
+pip install -r requirements.txt
